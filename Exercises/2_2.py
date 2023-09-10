@@ -18,7 +18,7 @@ def read_portfolio(filename):
 """
 
 import csv
-import readrides
+import readrides_2_1 as readrides
 from collections import defaultdict, Counter
 
 rows = readrides.read_rides_as_objects('../Data/ctabus.csv')
